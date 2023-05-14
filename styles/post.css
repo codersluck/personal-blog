@@ -1,0 +1,46 @@
+/* Mobile View */
+
+.container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-areas:
+    "hd"
+    "ttl"
+    "main"
+    "sn"
+    "ft";
+}
+
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    grid-area: ft;
+} 
+
+#side-nav {
+    grid-area: sn;
+}
+
+.blog-title {
+    grid-area: ttl;
+    align-self: center;
+    text-align: center;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.post {
+    color: lightgray;
+}

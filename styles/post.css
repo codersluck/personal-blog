@@ -1,9 +1,10 @@
 /* Mobile View */
 
-.container {
+.post-container {
     display: flex;
     height: auto;
     justify-content: center;
+    padding: 10px;
 }
 
 .grid {
@@ -23,7 +24,7 @@
     grid-area: main;
 }
 
-#footer {
+.footer {
     grid-area: ft;
 } 
 
@@ -37,7 +38,7 @@
     text-align: center;
 }
 
-.header {
+.top-nav {
     grid-area: hd;
 }
 
